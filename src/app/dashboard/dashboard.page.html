@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar>
+<ion-buttons slot="start">
+  <strong>{{ userDetail }}</strong>
+
+</ion-buttons>
+    <ion-buttons slot="end">
+      
+      <ion-button type="submit" expand="block" (click)="signOut()"
+        >Se deconnecter</ion-button
+      >
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-grid>
+    <ion-row>
+      
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+
+        <h2>A propos de nous</h2>
+        <h3>
+          Cette application, qui a pour objectif de
+           simplifier l’accès à la
+          formation  pour les gens intéressé au IT, permet de s’inscrire dans des
+          formations professionnelles et approfondies sans difficultés</h3 >
+          <p></p>
+       
+        <ion-button (click)="nextP()"  class ="btncolor"expand="block" shape="round">Voir formations </ion-button></ion-col
+      ></ion-row
+    >
+  </ion-grid>
+</ion-content>

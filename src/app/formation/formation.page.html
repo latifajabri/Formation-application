@@ -1,0 +1,45 @@
+<ion-content class="ion-padding" id="form">
+  <ion-item>
+    
+    <ion-input [(ngModel)]="firebasename1" placeholder="Nom"required></ion-input>
+  </ion-item>
+
+  <ion-item>
+    
+    <ion-input [(ngModel)]="firebasename2" placeholder="Prenom"required></ion-input>
+  </ion-item>
+
+  <ion-item>
+    
+    <ion-input [(ngModel)]="firebasemail" placeholder="Email"required></ion-input>
+  </ion-item>
+
+  <ion-item>
+    
+    <ion-input [(ngModel)]="firebasemobile"placeholder="Mobile"required></ion-input>
+  </ion-item>
+  <ion-item>
+    
+    <ion-input [(ngModel)]="firebasepays"placeholder="Pays"required></ion-input>
+  </ion-item>
+  <ion-item>
+    
+    <ion-input [(ngModel)]="firebaseville"placeholder="Ville"required></ion-input>
+  </ion-item>
+  <ion-item>
+    
+    <ion-input [(ngModel)]="firebasepaypal"placeholder="Paypal"required></ion-input>
+  </ion-item>
+  <ion-item>
+    
+    <ion-input [(ngModel)]="firebasedonate"placeholder="Faire un don(facultatif)" ></ion-input>
+  </ion-item>
+  <ion-button
+    (click)="addFirestore()"
+    expand="block"
+    shape="round"
+    class="btncolor"
+    (click)="nextPage()"
+    >Envoyer</ion-button
+  >
+</ion-content>

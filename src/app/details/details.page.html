@@ -1,0 +1,24 @@
+<ion-content>
+  <ion-card>
+    <ion-img src="{{Image.url}}"></ion-img>
+    <ion-card-header>
+      <ion-card-subtitle><h3>{{ Image.name}}</h3></ion-card-subtitle>
+      <ion-label
+        ><span>Prix</span>
+        <h3>{{ Image.price}}</h3></ion-label
+      >
+      <ion-label
+        ><span>Description:</span>
+        <h3>{{ Image.description}}</h3></ion-label
+      >
+    </ion-card-header>
+
+    <ion-button
+      (click)="nextpage()"
+      shape="round"
+      expand="block"
+      class="btncolor"
+      >S'enregister</ion-button
+    >
+  </ion-card>
+</ion-content>

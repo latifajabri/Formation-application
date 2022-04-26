@@ -1,0 +1,12 @@
+
+<ion-content>
+
+  <ion-card *ngFor="let image of images"  (click)="showMore(image)" >
+    <ion-img src={{image.url}}></ion-img>
+    <ion-item   lines="none">
+    <ion-card-header>
+      <ion-card-subtitle><h3>{{ image.name }}</h3></ion-card-subtitle>
+    </ion-card-header></ion-item>
+  </ion-card>
+
+</ion-content>

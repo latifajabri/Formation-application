@@ -1,0 +1,39 @@
+ion-toolbar{
+
+--background:#ddb1b1;
+ion-button{
+    font-weight: bold;
+
+}
+
+
+
+}
+
+h1{
+
+    color: black;
+}
+h3{
+
+    
+        color: #939fab;
+        font-weight: 600;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      
+}
+h2{
+
+    color: #5f4e4e;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.btncolor {
+    --background: var(--ion-color-btn);
+  }
+  
